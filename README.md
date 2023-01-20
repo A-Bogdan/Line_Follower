@@ -1,5 +1,5 @@
 # Line Follower
-This was a project that has been done in the span of a day during a mini hackathon.\
+This was a project that has been done in the span of a day during a mini hackathon.
 ### Technical Tasks
 The main objectives of the mini hackathon were the following:
 * to program a line follower with auto callibration for the sensors upon boot up;
@@ -14,4 +14,4 @@ The main objectives of the mini hackathon were the following:
 * 1 QTR-8A reflectance sensor array; 
 * wires (per logic).
 ### Video
-Live testing [here](https://youtu.be/uA6aWR-w0Tc).
+Live course trial [here](https://youtu.be/uA6aWR-w0Tc).
