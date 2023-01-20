@@ -14,4 +14,4 @@ The main objectives of the mini hackathon were the following:
 * 1 QTR-8A reflectance sensor array; 
 * wires (per logic).
 ### Video
-Live course trial [here](https://youtu.be/uA6aWR-w0Tc).
+Live course trial [here](https://youtu.be/STF4KL0HLZI).
