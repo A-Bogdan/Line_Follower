@@ -54,5 +54,5 @@ if (error <= -warnningSpotSensorValue) {
 * When the sensors in the extremities were registering high error values (i.e. after the straight section there is a tight curve), the car was reducing it's speed considerably.
 
 ### Final course 
-At the presentation of the project, our line follower, out of the three attempts, took the **best time of 21.761 seconds**.
-Live course trial [here](https://youtu.be/STF4KL0HLZI).
+* At the presentation of the project, our line follower, out of the three attempts, took the **best time of 21.761 seconds**.
+* Live course trial [here](https://youtu.be/STF4KL0HLZI).
