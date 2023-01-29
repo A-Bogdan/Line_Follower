@@ -40,7 +40,7 @@ The main objectives of this project were the following:
 
 ### PID Controller
 * The PID calibrations were made after repeated testing on the test circuits, and the machine wheels speed is adapted accordingly
-* Video showing our line follower on a test circuit. [here](https://youtu.be/AiGLdtWanJ4)
+* Video showing our line follower on a test circuit [here](https://youtu.be/AiGLdtWanJ4).
 * As you can see in the video, our tracker did very well on the winding part of the trail. But, on the straight line section, the higher the speed, the harder it was for the car to corner at the end of the straight. For this we added the following code which causes the car "to brake". 
 
 ```
