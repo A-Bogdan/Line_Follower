@@ -3,7 +3,17 @@ This was a project that has been done in the span of a day during a mini hackath
 
 ---
 
-### Technical Tasks
+## **Contents**  <a id="0"></a>
+- [Technical Task.](#technical_task) 
+- [Components.](#components)  
+- [Pictures of the setup.](#setup_pics)
+- [Process explanation.](#process_explanation)
+- [Line Follower on a test circuit](#test_circuit)
+- [Final Presentation](#final_presentation)
+
+---
+
+### Technical Tasks <a id="technical_task"></a>
 The main objectives of this project were the following:
 * assembly of the line follower in one of the course's labs;
 * implementing basic algorithms to test the functionality of the components(DC motors running smoothly, the QTR-8A sensor giving proper feedback, etc.)
@@ -67,6 +77,6 @@ if (error <= -warnningSpotSensorValue) {
 * Live course trial [here](https://youtu.be/STF4KL0HLZI).
 
 ### Necessary assignment info
-* Teammate's repository [link](https://github.com/StefanBoboc/Line_Follower);
+* Teammate's repository [link](https://github.com/StefanBoboc/Line_Follower).
 * Team name: Liniutzarii ᕙ(▀̿̿Ĺ̯̿̿▀̿ ̿) ᕗ
 
