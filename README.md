@@ -58,9 +58,11 @@ The main objectives of this project were the following:
 ---
 
 ### PID Controller
-* The PID calibrations were made after repeated testing on the test circuits, and the machine wheels speed is adapted accordingly
-* Video showing our line follower on a test circuit [here](https://youtu.be/AiGLdtWanJ4).
-* As you can see in the video, our tracker did very well on the winding part of the trail. But, on the straight line section, the higher the speed, the harder it was for the car to corner at the end of the straight. For this we added the following code which causes the car "to brake". 
+The PID calibrations were made after repeated testing on the test circuits, and the machine wheels speed is adapted accordingly
+
+Video showing our line follower on a test circuit [here](https://youtu.be/AiGLdtWanJ4).
+
+As you can see in the video, our tracker did very well on the winding part of the trail. But, on the straight line section, the higher the speed, the harder it was for the car to corner at the end of the straight. For this we added the following code which causes the car "to brake". 
 
 ```
 if (error <= -warnningSpotSensorValue) {
@@ -70,13 +72,16 @@ if (error <= -warnningSpotSensorValue) {
     m1Speed -= reduceMotorSpeed;
   }
 ```
-* When the sensors in the extremities were registering high error values (i.e. after the straight section there is a tight curve), the car was reducing it's speed considerably.
+
+When the sensors in the extremities were registering high error values (i.e. after the straight section there is a tight curve), the car was reducing it's speed considerably.
 
 ---
 
 ### Final course <a id="final_course"></a>
 * At the presentation of the project, our line follower, out of the three attempts, took the **best time of 21.761 seconds**.
 * Live course trial [here](https://youtu.be/STF4KL0HLZI).
+
+---
 
 ### Necessary Assignment Info <a id="assignment_info"></a>
 * Teammate's repository [link](https://github.com/StefanBoboc/Line_Follower).
