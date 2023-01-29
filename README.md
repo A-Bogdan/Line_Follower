@@ -28,5 +28,13 @@ The main objectives of this project were the following:
 
 ## **Picture of the team. (#Liniutzarii)**
 ![pic5](./team.jpeg)
+
+---
+
+## **Project challenges**
+#### Auto Callibration
+* In order to receive a higher score on our line follower, one of the main tasks was making it automatically calibrate the QTR-8A sensor. This was something much easier said than done, as the initial idea of giving the wheel motors timed intervals in which they would change direction proved to be ineffective. Due to hardware factors(one DC motor output more power than the other), the line follower couldn't remain centered on the black line, making a little pirouette during the automatic callibration.  
+* After receiving tips and tricks from the course and lab teachers, we decided to opt for using the sensors as they were being callibrated. Starting from a centered position on the black line, the follower would turn left and once the rightmost sensor would be dead on the black line, the DC motors changed their direction of rotation. Then, once the leftmost sensor would be centered on the black line, the direction of rotation would be changed again, rinse and repeat.
+
 ### Video
 Live course trial [here](https://youtu.be/STF4KL0HLZI).
