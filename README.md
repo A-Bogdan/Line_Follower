@@ -7,8 +7,9 @@ This was a project that has been done in the span of a day during a mini hackath
 - [Technical Task.](#technical_task) 
 - [Components.](#components)  
 - [Pictures of the setup.](#setup_pics)
-- [Project challenges](#project_challenges)
-- [Final Course](#final_course)
+- [Project challenges.](#project_challenges)
+- [Final Course.](#final_course)
+- [Necessary Assignment Info.](#assignment_info)
 
 ---
 
@@ -75,7 +76,7 @@ if (error <= -warnningSpotSensorValue) {
 * At the presentation of the project, our line follower, out of the three attempts, took the **best time of 21.761 seconds**.
 * Live course trial [here](https://youtu.be/STF4KL0HLZI).
 
-### Necessary assignment info
+### Necessary Assignment Info <a id="assignment_info"></a>
 * Teammate's repository [link](https://github.com/StefanBoboc/Line_Follower).
 * Team name: Liniutzarii ᕙ(▀̿̿Ĺ̯̿̿▀̿ ̿) ᕗ
 
