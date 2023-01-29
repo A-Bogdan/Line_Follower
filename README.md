@@ -32,7 +32,8 @@ The main objectives of this project were the following:
 * L293D motor driver;
 * 2 wheels; 
 * 1 QTR-8A reflectance sensor array; 
-* wires (per logic).
+* wires (per logic);
+* zip ties (per logic).
 
 ---
 
@@ -52,8 +53,10 @@ The main objectives of this project were the following:
 ## **Project challenges** <a id="project_challenges"></a>
 
 ### Auto Calibration
-* In order to receive a higher score on our line follower, one of the main tasks was making it automatically calibrate the QTR-8A sensor. This was something much easier said than done, as the initial idea of giving the wheel motors timed intervals in which they would change direction proved to be ineffective. Due to hardware factors(one DC motor outputing more power than the other), the line follower couldn't remain centered on the black line, making a little pirouette during the automatic calibration.  
-* After receiving tips and tricks from the course and lab teachers, we decided to opt for using the sensors as they were being calibrated. Starting from a centered position on the black line, the follower would turn left and once the rightmost sensor would be dead on the black line, the DC motors changed their direction of rotation. Then, once the leftmost sensor would be centered on the black line, the direction of rotation would be changed again, rinse and repeat.
+In order to receive a higher score on our line follower, one of the main tasks was making it automatically calibrate the QTR-8A sensor. This was something much easier said than done, as the initial idea of giving the wheel motors timed intervals in which they would change direction proved to be ineffective. Due to hardware factors(one DC motor outputing more power than the other), the line follower couldn't remain centered on the black line, making a little pirouette during the automatic calibration.  
+
+
+After receiving tips and tricks from the course and lab teachers, we decided to opt for using the sensors as they were being calibrated. Starting from a centered position on the black line, the follower would turn left and once the rightmost sensor would be dead on the black line, the DC motors changed their direction of rotation. Then, once the leftmost sensor would be centered on the black line, the direction of rotation would be changed again, rinse and repeat.
 
 ---
 
