@@ -20,9 +20,9 @@ The main objectives of this project were the following:
 
 ## **Pictures of the setup.**
 ![schematic_picture]()
-| ![pic1](./Syntax%20and%20setup/Back%20View.jpg) | ![pic2](./Syntax and setup/Front Angled View.jpg) | 
+| ![pic1](./Syntax%20and%20setup/Back%20View.jpg) | ![pic2](./Syntax%20and%20setup/Front%20Angled%20View.jpg) | 
 |:-------------:|:-------------:|
-| ![pic3](./Syntax and setup/Side View.jpg) | ![pic4](./Syntax and setup/Top view.jpg) |
+| ![pic3](./Syntax%20and%20setup/Side%20View.jpg) | ![pic4](./Syntax%20and%20setup/Top%20View.jpg) |
 
 ---
 
