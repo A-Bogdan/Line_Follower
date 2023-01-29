@@ -66,7 +66,7 @@ if (error <= -warnningSpotSensorValue) {
 * At the presentation of the project, our line follower, out of the three attempts, took the **best time of 21.761 seconds**.
 * Live course trial [here](https://youtu.be/STF4KL0HLZI).
 
-### Necessary assignment info:
+### Necessary assignment info
 * Teammate's repository [link](https://github.com/StefanBoboc/Line_Follower);
 * Team name: Liniutzarii ᕙ(▀̿̿Ĺ̯̿̿▀̿ ̿) ᕗ
 
