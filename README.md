@@ -81,12 +81,14 @@ When the sensors in the extremities were registering high error values (i.e. aft
 ---
 
 ### Final course <a id="final_course"></a>
-* At the presentation of the project, our line follower, out of the three attempts, took the **best time of 21.761 seconds**.
-* Live course trial [here](https://youtu.be/STF4KL0HLZI).
+At the presentation of the project, our line follower, out of the three attempts, took the **best time of 21.761 seconds**.
+
+Live course trial [here](https://youtu.be/STF4KL0HLZI).
 
 ---
 
 ### Necessary Assignment Info <a id="assignment_info"></a>
-* Teammate's repository [link](https://github.com/StefanBoboc/Line_Follower).
-* Team name: Liniutzarii :sunglasses:
+Teammate's repository [link](https://github.com/StefanBoboc/Line_Follower).
+
+Team name: Liniutzarii :sunglasses:
 
