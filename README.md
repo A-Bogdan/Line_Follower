@@ -78,5 +78,5 @@ if (error <= -warnningSpotSensorValue) {
 
 ### Necessary Assignment Info <a id="assignment_info"></a>
 * Teammate's repository [link](https://github.com/StefanBoboc/Line_Follower).
-* Team name: Liniutzarii ᕙ(▀̿̿Ĺ̯̿̿▀̿ ̿) ᕗ
+* Team name: Liniutzarii :sunglasses:
 
