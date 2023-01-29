@@ -32,9 +32,25 @@ The main objectives of this project were the following:
 ---
 
 ## **Project challenges**
-#### Auto Callibration
-* In order to receive a higher score on our line follower, one of the main tasks was making it automatically calibrate the QTR-8A sensor. This was something much easier said than done, as the initial idea of giving the wheel motors timed intervals in which they would change direction proved to be ineffective. Due to hardware factors(one DC motor output more power than the other), the line follower couldn't remain centered on the black line, making a little pirouette during the automatic callibration.  
-* After receiving tips and tricks from the course and lab teachers, we decided to opt for using the sensors as they were being callibrated. Starting from a centered position on the black line, the follower would turn left and once the rightmost sensor would be dead on the black line, the DC motors changed their direction of rotation. Then, once the leftmost sensor would be centered on the black line, the direction of rotation would be changed again, rinse and repeat.
+
+### Auto Calibration
+* In order to receive a higher score on our line follower, one of the main tasks was making it automatically calibrate the QTR-8A sensor. This was something much easier said than done, as the initial idea of giving the wheel motors timed intervals in which they would change direction proved to be ineffective. Due to hardware factors(one DC motor outputing more power than the other), the line follower couldn't remain centered on the black line, making a little pirouette during the automatic calibration.  
+* After receiving tips and tricks from the course and lab teachers, we decided to opt for using the sensors as they were being calibrated. Starting from a centered position on the black line, the follower would turn left and once the rightmost sensor would be dead on the black line, the DC motors changed their direction of rotation. Then, once the leftmost sensor would be centered on the black line, the direction of rotation would be changed again, rinse and repeat.
+
+### PID Controller
+* The PID calibrations were made after repeated testing on the test circuits, and the machine wheels speed is adapted accordingly
+* Video showing our line follower on a test circuit. [here](https://youtu.be/AiGLdtWanJ4)
+* As you can see in the video, our tracker did very well on the winding part of the trail. But, on the straight line section, the higher the speed, the harder it was for the car to corner at the end of the straight. For this we added the following code which causes the car "to brake". 
+
+```
+if (error <= -warnningSpotSensorValue) {
+    m2Speed -= reduceMotorSpeed;
+  } 
+  else if (error >= warnningSpotSensorValue) {
+    m1Speed -= reduceMotorSpeed;
+  }
+```
+* When the sensors in the extremities were registering high error values (i.e. after the straight section there is a tight curve), the car was reducing it's speed considerably.
 
 ### Video
 Live course trial [here](https://youtu.be/STF4KL0HLZI).
