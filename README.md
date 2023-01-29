@@ -5,7 +5,7 @@ The main objectives of this project were the following:
 * assembly of the line follower in one of the course's labs;
 * implementing basic algorithms to test the functionality of the components(DC motors running smoothly, the QTR-8A sensor giving proper feedback, etc.)
 * to program a line follower with auto callibration for the sensors upon boot up;
-* to implement and fine tune a PID controller which would enable the line follower to complete a test course as fast as possible.
+* to implement and fine tune a PID controller which would enable the line follower to complete a test course as fast as possible(desired target was ~20 seconds).
 ### Components
 * 1 Arduino Uno;
 * 1 car chassis; 
