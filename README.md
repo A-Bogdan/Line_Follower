@@ -15,5 +15,18 @@ The main objectives of this project were the following:
 * 2 wheels; 
 * 1 QTR-8A reflectance sensor array; 
 * wires (per logic).
+
+---
+
+## **Pictures of the setup.**
+![schematic_picture]()
+| ![pic1](./Syntax and setup/Back view.jpg) | ![pic2](./Syntax and setup/Front Angled View.jpg) | 
+|:-------------:|:-------------:|
+| ![pic3](./Syntax and setup/Side View.jpg) | ![pic4](./Syntax and setup/Top view.jpg) |
+
+---
+
+## **Picture of the team.**
+![pic5](./pictures/linefollower_pic5.jpeg)
 ### Video
 Live course trial [here](https://youtu.be/STF4KL0HLZI).
