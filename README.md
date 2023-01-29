@@ -26,7 +26,7 @@ The main objectives of this project were the following:
 
 ---
 
-## **Picture of the team.**
+## **Picture of the team. (#Liniutzarii)**
 ![pic5](./team.jpeg)
 ### Video
 Live course trial [here](https://youtu.be/STF4KL0HLZI).
