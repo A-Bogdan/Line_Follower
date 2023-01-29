@@ -1,5 +1,5 @@
 # Line Follower
-This was a project that has been done in the span of a day during a mini hackathon. The project was carried out together with my teammate Stefan(_StefanBoboc_ on Github). 
+This was a project that has been done in the span of a day during a mini hackathon. The project was carried out together with my teammate Stefan (_StefanBoboc_ on Github). 
 
 ### Technical Tasks
 The main objectives of this project were the following:
