@@ -7,9 +7,8 @@ This was a project that has been done in the span of a day during a mini hackath
 - [Technical Task.](#technical_task) 
 - [Components.](#components)  
 - [Pictures of the setup.](#setup_pics)
-- [Process explanation.](#process_explanation)
-- [Line Follower on a test circuit](#test_circuit)
-- [Final Presentation](#final_presentation)
+- [Project challenges](#project_challenges)
+- [Final Course](#final_course)
 
 ---
 
@@ -22,7 +21,7 @@ The main objectives of this project were the following:
 
 ---
 
-### Components
+### Components <a id="components"></a>
 * 1 Arduino Uno;
 * 1 car chassis; 
 * 1 ball caster; 
@@ -34,7 +33,7 @@ The main objectives of this project were the following:
 
 ---
 
-## **Pictures of the setup.**
+## **Pictures of the setup.** <a id="setup_pics"></a>
 
 | ![pic1](./Syntax%20and%20setup/Back%20View.jpg) | ![pic2](./Syntax%20and%20setup/Front%20Angled%20View.jpg) | 
 |:-------------:|:-------------:|
@@ -47,7 +46,7 @@ The main objectives of this project were the following:
 
 ---
 
-## **Project challenges**
+## **Project challenges** <a id="project_challenges"></a>
 
 ### Auto Calibration
 * In order to receive a higher score on our line follower, one of the main tasks was making it automatically calibrate the QTR-8A sensor. This was something much easier said than done, as the initial idea of giving the wheel motors timed intervals in which they would change direction proved to be ineffective. Due to hardware factors(one DC motor outputing more power than the other), the line follower couldn't remain centered on the black line, making a little pirouette during the automatic calibration.  
@@ -72,7 +71,7 @@ if (error <= -warnningSpotSensorValue) {
 
 ---
 
-### Final course 
+### Final course <a id="final_course"></a>
 * At the presentation of the project, our line follower, out of the three attempts, took the **best time of 21.761 seconds**.
 * Live course trial [here](https://youtu.be/STF4KL0HLZI).
 
