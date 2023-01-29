@@ -1,5 +1,6 @@
 # Line Follower
-This was a project that has been done in the span of a day during a mini hackathon.
+This was a project that has been done in the span of a day during a mini hackathon. The project was carried out together with my teammate Stefan(_StefanBoboc_ on Github). 
+
 ### Technical Tasks
 The main objectives of this project were the following:
 * assembly of the line follower in one of the course's labs;
@@ -52,5 +53,6 @@ if (error <= -warnningSpotSensorValue) {
 ```
 * When the sensors in the extremities were registering high error values (i.e. after the straight section there is a tight curve), the car was reducing it's speed considerably.
 
-### Video
+### Final course 
+At the presentation of the project, our line follower, out of the three attempts, took the **best time of 21.761 seconds**.
 Live course trial [here](https://youtu.be/STF4KL0HLZI).
