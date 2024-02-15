@@ -1,5 +1,5 @@
 # Line Follower
-This is the final project for the Introduction to Robotics course taken in the 3rd year at the Faculty of Mathematics and Computer Science, University of Bucharest.
+This is the final project for the Introduction to Robotics course taken in the 4th year at the Faculty of Mathematics and Computer Science, University of Bucharest.
 
 This was a project that has been done in the span of a day during a mini hackathon. The project was carried out together with my teammate Stefan (_StefanBoboc_ on Github). 
 
